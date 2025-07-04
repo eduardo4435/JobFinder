@@ -1,0 +1,36 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "homepage": "https://github.com/eduardo4435/JobFinder#readme",
+  "bugs": {
+    "url": "https://github.com/eduardo4435/JobFinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo4435/JobFinder.git"
+  },
+  "license": "ISC",
+  "author": "Eduardo",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
